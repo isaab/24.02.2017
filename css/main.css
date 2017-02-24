@@ -1,0 +1,326 @@
+html,
+body {
+    margin: 0;
+}
+
+.main {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+[class*='col_'] {
+    float: left;
+    height: auto;
+    box-sizing: border-box;
+    padding: 4px;
+}
+
+.col_1 {
+    width: 8.3333%;
+}
+
+.col_offset_1 {
+    margin-left: 8.3333%;
+}
+
+.col_2 {
+    width: 16.667%;
+}
+
+.col_offset_2 {
+    margin-left: 16.667%;
+}
+
+.col_3 {
+    width: 25%;
+}
+
+.col_offset_3 {
+    margin-left: 25%;
+}
+
+.col_4 {
+    width: 33.3333%;
+}
+
+.col_offset_4 {
+    margin-left: 33.3333%;
+}
+
+.col_5 {
+    width: 41.6667%;
+}
+
+.col_offset_5 {
+    margin-left: 41.6667%;
+}
+
+.col_6 {
+    width: 50%;
+}
+
+.col_offset_6 {
+    margin-left: 50%;
+}
+
+.col_7 {
+    width: 58.3333%;
+}
+
+.col_offset_7 {
+    margin-left: 58.3333%;
+}
+
+.col_8 {
+    width: 66.6667%;
+}
+
+.col_offset_8 {
+    margin-left: 66.6667%;
+}
+
+.col_9 {
+    width: 75%;
+}
+
+.col_offset_9 {
+    margin-left: 75%;
+}
+
+.col_10 {
+    width: 83.3333%;
+}
+
+.col_11 {
+    width: 91.6667%;
+}
+
+.col_12 {
+    width: 100%;
+}
+
+.col_6.col_offset_5 {
+    margin: 0;
+}
+
+.margin_top_15 {
+    margin-top: 15px;
+}
+
+
+/*col colset*/
+
+.menu-panel {
+    margin-top: 35px;
+}
+
+.menu {
+    float: left
+}
+
+.icon ul {
+    float: right;
+    margin: 0;
+    margin-right: 30px;
+}
+
+.menu-panel .menu ul li a:hover {
+    color: red;
+}
+
+.margin_top_25 {
+    margin-top: 25px;
+}
+
+.col_6 img {
+    margin-top: 45px;
+}
+
+.icon ul li {
+    display: inline;
+}
+
+.icon ul li a i {
+    background-color: #d1d1d1;
+    content: "\f002";
+    padding: 10px;
+    color: white;
+    font-size: 10px;
+    border: 1px solid grey;
+    border-radius: 25px;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 0px 0px 0px 25px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    line-height: 18px;
+    color: rgb(49, 49, 49);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.image-slider {
+    margin-top: 10px;
+}
+
+.image-slider img {
+    width: 100%;
+}
+
+.col_3 i {
+    font-size: 40px;
+    border-radius: 100%;
+    border: 20px solid lightgrey;
+    background: lightgrey;
+    margin: 20px;
+}
+
+.col_3 h1 {
+    margin: 10px;
+    font-size: 1.4em;
+}
+
+.content {
+    margin: 30px;
+    text-align: center;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.content .miniheader h1 {
+    padding: 5px 20px;
+    font-size: 15px;
+}
+
+.content .miniheader h1:last-child {
+    font-size: 25px;
+}
+
+.imgbox {
+    height: 200px;
+    overflow: hidden;
+}
+
+.col_6 h2 {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.black-line {
+    height: 4px;
+    width: 100%;
+    background: black;
+    margin: 60px 0;
+}
+
+.col_3 textarea {
+    width: 223px;
+    border: 0;
+    border-radius: 3px;
+    background: lightgrey;
+    margin-bottom: 10px;
+}
+
+.col_3 .first {
+    background: black;
+    color: white;
+    border: 0;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.col_3 .second {
+    background: red;
+    color: white;
+    border: 0;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.col_3 img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/*.color{
+     background-color: #1e1e1e;
+ }*/
+
+.col_6 .icon {
+    margin-top: 30px;
+}
+
+li.riight {
+    float: right;
+}
+
+.img-pad {
+    padding-bottom: 35px;
+}
+
+.final ul li a:hover {
+    color: red;
+}
+
+.final {
+    background-color: #1e1e1e;
+    height: 50%;
+}
+
+.img-left {
+    margin-left: 70px;
+}
+
+.icon ul {
+    margin-right: 20px
+}
+
+input[type="text"] {
+    background-color: lightgrey;
+}
+
+input[type="search"] {
+    border: none;
+    background-color: #1e1e1e;
+}
+
+.icon-final ul li a i {
+    background-color: #1e1e1e;
+    content: "\f002";
+    padding: 10px;
+    color: white;
+    font-size: 10px;
+    border: 1px solid grey;
+    border-radius: 25px;
+}
+
+.icon-final ul {
+    text-align: center;
+    margin-left: 75px;
+}
+
+.icon-final ul li {
+    display: inline;
+}
+
+.menu-panel .menu ul li.active a {
+    color: red;
+}
